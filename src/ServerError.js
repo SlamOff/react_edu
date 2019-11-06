@@ -2,10 +2,10 @@ import React from 'react';
 
 class ServerError extends React.Component {
 	render() {
-		console.log(this.props);
+		//console.log(this.props);
 		return (
 			<div className="error">
-				<h3>Error ocured:</h3>
+				<h3>Error occured:</h3>
 				<p>{this.props.error}</p>
 				<button className="btn btn-resend" onClick={this.props.resend}>Resend request</button>
 			</div>

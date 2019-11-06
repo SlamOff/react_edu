@@ -16,12 +16,34 @@
 	border-width: 2px;
 	border-style: solid;
 	margin-bottom: 20px;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	transition: all .3s;
+}
+.btn:hover {
+	color: #fff;
 }
 .btn-send {
 	border-color: blue;
+	color: blue;
+}
+.btn-send:hover {
+	background-color: blue;
 }
 .btn-reject {
 	border-color: red;
+	color: red;
+}
+.btn-reject:hover {
+	background-color: red;
+}
+.btn-resend {
+	border-color: green;
+	color: green;
+}
+.btn-resend:hover {
+	background-color: green;
 }
 .result {
 	width: 
