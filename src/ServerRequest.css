@@ -1,0 +1,34 @@
+.wrapper {
+	border: 2px solid #ccc;
+	margin: 0 auto;
+	max-width: 50%;
+	padding: 40px;
+}
+.btn {
+	line-height: 36px;
+	font-size: 18px;
+	outline: 0;
+	cursor: pointer;
+	height: 40px;
+	width: 200px;
+	display: block;
+	background-color: transparent;
+	border-width: 2px;
+	border-style: solid;
+	margin-bottom: 20px;
+}
+.btn-send {
+	border-color: blue;
+}
+.btn-reject {
+	border-color: red;
+}
+.result {
+	width: 
+}
+.result__pict {
+	max-width: 300px;
+}
+.error {
+	color: red;
+}
